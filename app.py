@@ -77,7 +77,7 @@ async def mri_to_ct(file: UploadFile = File(...)):
 # To run the app, use:
 # uvicorn app:app --reload
 
-if __name__ == '__main__':
-    # start the api
-    import uvicorn
-    uvicorn.run(app, host='127.0.0.1', port=8000)
+# if __name__ == '__main__':
+#     # start the api
+#     import uvicorn
+#     uvicorn.run(app, host='127.0.0.1', port=8000)
